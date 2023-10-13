@@ -5,9 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js",
-    "server": "nodemon backend/server.js"
-  },
+    "start": "nodemon server.js"
+    },
   "author": "Shalini Anguraj",
   "license": "MIT",
   "dependencies": {
