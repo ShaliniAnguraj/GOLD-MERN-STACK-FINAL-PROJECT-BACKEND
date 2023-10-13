@@ -5,8 +5,10 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js"
-    },
+    "start": "nodemon backend/server.js",
+    "server": "nodemon backend/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
   "author": "Shalini Anguraj",
   "license": "MIT",
   "dependencies": {
