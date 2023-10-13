@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon backend/server.js",
-    "server": "nodemon backend/server.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "server": "nodemon backend/server.js"
   },
   "author": "Shalini Anguraj",
   "license": "MIT",
